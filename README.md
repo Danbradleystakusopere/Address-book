@@ -88,8 +88,12 @@ This `README.md` file includes everything in one place: an introduction, feature
 2. You can update the `Author` section with your own name and GitHub link.
 
 Let me know if you'd like to make further adjustments or need additional sections!
+address-book-3jrb-6gmv82eb2-danbradley-stakus-operes-projects.vercel.app
+This is the deployed vercel link
+
+
  https://danbradleystakusopere.github.io/Address-book/
- This is the deployed link
+ This is the deployed github link
  
  
 
