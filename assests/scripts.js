@@ -1,10 +1,10 @@
 // scripts.js
 
-// Store contacts and their todos
+
 const contacts = [];
 let selectedContactIndex = null;
 
-// Select elements
+
 const contactForm = document.getElementById('contactForm');
 const contactList = document.getElementById('contactList');
 const todoForm = document.getElementById('todoForm');
@@ -12,7 +12,7 @@ const todoInput = document.getElementById('todoInput');
 const todoList = document.getElementById('todoList');
 const todoTitle = document.getElementById('todoTitle');
 
-// Handle contact form submission
+
 contactForm.addEventListener('submit', function(event) {
   event.preventDefault();
 
@@ -29,7 +29,7 @@ contactForm.addEventListener('submit', function(event) {
   contactForm.reset();
 });
 
-// Render contact list
+
 function renderContacts() {
   contactList.innerHTML = '';
   contacts.forEach((contact, index) => {
@@ -43,7 +43,7 @@ function renderContacts() {
   });
 }
 
-// Select a contact
+
 function selectContact(index) {
   selectedContactIndex = index;
   todoTitle.textContent = `Manage To-Dos for ${contacts[index].name}`;
@@ -51,7 +51,7 @@ function selectContact(index) {
   renderTodos();
 }
 
-// Handle todo form submission
+
 todoForm.addEventListener('submit', function(event) {
   event.preventDefault();
 
@@ -65,7 +65,7 @@ todoForm.addEventListener('submit', function(event) {
   }
 });
 
-// Render todos
+
 function renderTodos() {
   todoList.innerHTML = '';
   if (selectedContactIndex === null) return;
@@ -103,14 +103,14 @@ function renderTodos() {
   });
 }
 
-// Toggle complete
+
 function toggleTodoComplete(todoIndex) {
   const todo = contacts[selectedContactIndex].todos[todoIndex];
   todo.completed = !todo.completed;
   renderTodos();
 }
 
-// Delete todo
+
 function deleteTodo(todoIndex) {
   contacts[selectedContactIndex].todos.splice(todoIndex, 1);
   renderTodos();
