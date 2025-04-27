@@ -90,8 +90,8 @@ This `README.md` file includes everything in one place: an introduction, feature
 Let me know if you'd like to make further adjustments or need additional sections!
  https://danbradleystakusopere.github.io/Address-book/
  This is the deployed link
- address-book-3jrb-1d3x4q6xt-danbradley-stakus-operes-projects.vercel.app
- this is the deployed vercel link
+ 
+ 
 
 
 
