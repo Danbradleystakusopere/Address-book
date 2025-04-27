@@ -88,6 +88,8 @@ This `README.md` file includes everything in one place: an introduction, feature
 2. You can update the `Author` section with your own name and GitHub link.
 
 Let me know if you'd like to make further adjustments or need additional sections!
+ https://danbradleystakusopere.github.io/Address-book/
+ This is the deployed link
 
 
 
